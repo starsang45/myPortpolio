@@ -13,10 +13,10 @@ export default function Home() {
         <img src="/logo.png" alt="Victor caricature logo" className="logo" />
         <div>
           <h1>Hi, I’m Victor</h1>
-          <p>Cloud & Full-Stack Engineer</p>
+          <p>Full-Stack Engineer</p>
           <a href="https://github.com/">GitHub</a> |{" "}
-          <a href="https://linkedin.com/">LinkedIn</a> |{" "}
-          <a href="/resume.pdf">Resume</a>
+          <a href="https://linkedin.com/">LinkedIn</a> {" "}
+
         </div>
       </section>
 

@@ -15,6 +15,20 @@
   border-radius: 50%;
 }
 
+/* 📱 모바일 반응형 */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;   /* 세로 배치 */
+    text-align: center;       /* 텍스트 가운데 정렬 */
+    gap: 20px;
+  }
+
+  .hero img.logo {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+}
+
 :root {
   --color-bg: #ffffff;      /* 화이트 배경 */
   --color-text: #0f172a;    /* 진한 네이비/블랙 텍스트 */
@@ -52,9 +66,52 @@ h1, h2, h3 {
 .card {
   padding: 20px;
   border-radius: 8px;
-  background-color: var(--color-hover);
+  background-color: #f8fafc; /* 밝은 회색 배경 */
   margin-bottom: 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
+
+/* Hover 시 카드 강조 */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 반응형: 섹션 레이아웃 */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Projects 카드 grid 배치 */
+#projects .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#projects .card a {
+  margin-top: 8px;
+  color: var(--color-accent);
+}
+
+/* 📱 모바일 반응형 */
+@media (max-width: 768px) {
+  section {
+    padding: 40px 16px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  #projects .card {
+    align-items: center;
+    text-align: center;
+  }
+}
+ 
 
 footer {
   text-align: center;
