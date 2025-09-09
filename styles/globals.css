@@ -1,12 +1,28 @@
+/* Hero Section */
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;   /* 가운데 정렬 */
-  gap: 40px;                 /* 캐리커처와 텍스트 사이 간격 */
-  padding: 60px 20px;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;        /* Hero는 넉넉하게 */
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
+}
+
+/* Hero Links */
+.hero-links {
+  margin-top: 0.5rem;
+}
+
+.hero-links a {
+  margin-right: 1rem;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.hero-links a:hover {
+  text-decoration: underline;
 }
 
 .hero img.logo {
@@ -18,8 +34,8 @@
 /* 📱 모바일 반응형 */
 @media (max-width: 768px) {
   .hero {
-    flex-direction: column;   /* 세로 배치 */
-    text-align: center;       /* 텍스트 가운데 정렬 */
+    flex-direction: column;
+    text-align: center;
     gap: 20px;
   }
 
@@ -29,11 +45,12 @@
   }
 }
 
+/* Global colors */
 :root {
-  --color-bg: #ffffff;      /* 화이트 배경 */
-  --color-text: #0f172a;    /* 진한 네이비/블랙 텍스트 */
-  --color-accent: #2563eb;  /* 파란색 링크 */
-  --color-hover: #f1f5f9;   /* hover 시 밝은 회색 */
+  --color-bg: #ffffff;
+  --color-text: #0f172a;
+  --color-accent: #2563eb;
+  --color-hover: #f1f5f9;
 }
 
 body {
@@ -44,47 +61,86 @@ body {
   line-height: 1.6;
 }
 
+/* Links */
 a {
   color: var(--color-accent);
   text-decoration: none;
 }
 
 a:hover {
-  color: #1e40af; /* 진한 블루 */
+  color: #1e40af;
 }
 
+/* Section padding 조정 */
 section {
-  padding: 80px 20px;
+  padding: 10px 16px;     /* 기본 섹션은 타이트하게 */
   max-width: 900px;
   margin: 0 auto;
+  
 }
 
+/* Hero만 별도 */
+#hero {
+  padding: 60px 20px;     /* Hero는 넉넉하게 유지 */
+}
+
+#education {
+  padding-top: 10px;   /* 위쪽 여백 최소화 */
+  padding-bottom: 10px; /* 아래쪽 여백 최소화 */
+}
+
+/* Headings */
 h1, h2, h3 {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
+/* Cards */
+/* 카드 공통 텍스트 크기 */
 .card {
-  padding: 20px;
-  border-radius: 8px;
-  background-color: #f8fafc; /* 밝은 회색 배경 */
-  margin-bottom: 16px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  background: #fff;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  border-left: 4px solid #0366d6;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-size: 14px;   /* ✅ 기본 텍스트 크기 통일 */
+  line-height: 1.5;
 }
 
-/* Hover 시 카드 강조 */
+/* 카드 안의 제목 */
+.card h3, 
+.card strong {
+  font-size: 14px;   /* ✅ 제목도 Experience 카드와 동일 크기 */
+  font-weight: 600;
+  margin: 0.25rem 0;
+}
+
+/* 카드 안의 일반 텍스트 */
+.card p {
+  font-size: 14px;   /* ✅ 내용도 동일 크기 */
+  margin: 0.25rem 0;
+}
+
+/* Hover 효과 */
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* 반응형: 섹션 레이아웃 */
-section {
-  padding: 60px 20px;
-  max-width: 900px;
-  margin: 0 auto;
+/* Experience cards */
+.card.experience-card {
+  position: relative;
+  border-left: 4px solid #0366d6;
+  margin-bottom: 0.5rem;
 }
 
-/* Projects 카드 grid 배치 */
+.card.experience-card:not(:last-child) {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* Projects */
 #projects .card {
   display: flex;
   flex-direction: column;
@@ -96,14 +152,14 @@ section {
   color: var(--color-accent);
 }
 
-/* 📱 모바일 반응형 */
+/* 📱 모바일 */
 @media (max-width: 768px) {
   section {
-    padding: 40px 16px;
+    padding: 20px 16px;
   }
 
   .card {
-    padding: 16px;
+    padding: 12px;
   }
 
   #projects .card {
@@ -111,11 +167,11 @@ section {
     text-align: center;
   }
 }
- 
 
+/* Footer */
 footer {
   text-align: center;
-  padding: 40px 20px;
+  padding: 30px 20px;
   font-size: 14px;
   color: #64748b;
   position: relative;
