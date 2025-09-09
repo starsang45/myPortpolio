@@ -9,8 +9,15 @@ export default function Home() {
   return (
      <>
      <Head>
-        <title>const Victor = Portpolio</title>
-        <meta name="description" content="Victor Kim - Cloud & Full-Stack Engineer Portfolio" />
+        <title>const Victor</title>
+        <meta
+          name="description"
+          content="Victor Kim - Cloud & Full-Stack Engineer Portfolio"
+        />
+        <meta property="og:title" content="it's Victor" />
+        <meta property="og:description" content="Cloud & Full-Stack Engineer" />
+        <meta property="og:url" content="https://your-vercel-url.vercel.app" />
+        <meta property="og:type" content="website" />
       </Head>
      <div>
       {/* Hero */}
