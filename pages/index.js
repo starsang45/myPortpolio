@@ -7,7 +7,12 @@ export default function Home() {
   };
 
   return (
-    <div>
+     <>
+     <Head>
+        <title>const Victor = Portpolio</title>
+        <meta name="description" content="Victor Kim - Cloud & Full-Stack Engineer Portfolio" />
+      </Head>
+     <div>
       {/* Hero */}
       <section id="hero" className="hero">
         <img src="/logo.png" alt="Victor caricature logo" className="logo" />
@@ -60,5 +65,8 @@ export default function Home() {
         </div>
       </footer>
     </div>
+     </>
+    
+    
   );
 }
