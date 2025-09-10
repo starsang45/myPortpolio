@@ -84,6 +84,31 @@ section {
   padding: 60px 20px;     /* Hero는 넉넉하게 유지 */
 }
 
+.exp-item {
+  display: flex;
+  justify-content: space-between; /* 왼쪽은 회사명, 오른쪽은 날짜 */
+  align-items: baseline;
+}
+
+.exp-title {
+  font-weight: 600;
+  font-size: 1rem; /* 살짝 키우기 */
+}
+
+.exp-date {
+  color: #777;       /* 연한 회색 */
+  font-size: 0.9rem; /* 보조 느낌 */
+}
+
+
+.exp-role {
+  margin-top: 2px;
+  font-style: italic;
+  color: #444;  /* 검정보다는 살짝 부드러운 톤 */
+}
+
+
+
 #education {
   padding-top: 10px;   /* 위쪽 여백 최소화 */
   padding-bottom: 10px; /* 아래쪽 여백 최소화 */
@@ -140,6 +165,72 @@ h1, h2, h3 {
   padding-bottom: 0.5rem;
 }
 
+.job {
+  margin-bottom: 16px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between; /* 왼쪽은 회사명, 오른쪽은 날짜 */
+  align-items: baseline;
+}
+
+.company {
+  font-weight: 600;
+}
+
+.date {
+  color: #555;
+}
+
+.role {
+  margin-top: 4px;  /* 살짝 띄워서 두 번째 줄 느낌 */
+}
+
+.job {
+  margin-bottom: 16px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between; /* 왼쪽은 회사명, 오른쪽은 날짜 */
+  align-items: baseline;
+}
+
+.company {
+  font-weight: 600;
+}
+
+.date {
+  color: #555;
+}
+
+.role {
+  margin-top: 4px;  /* 살짝 띄워서 두 번째 줄 느낌 */
+}
+
+.edu-item {
+  display: flex;
+  justify-content: space-between; /* 학교명 왼쪽, 날짜 오른쪽 */
+  align-items: baseline;
+}
+
+.edu-school {
+  font-weight: 600; /* 학교명 Bold */
+}
+
+.edu-date {
+  color: #777;      /* 연한 회색 */
+  font-size: 0.9rem;
+}
+
+.edu-degree {
+  margin-top: 4px;
+  font-style: italic; /* 학위/전공 이탤릭체 */
+  color: #444;        /* 살짝 부드러운 톤 */
+}
+
+
 /* Projects */
 #projects .card {
   display: flex;
@@ -151,6 +242,13 @@ h1, h2, h3 {
   margin-top: 8px;
   color: var(--color-accent);
 }
+
+.project-desc {
+  margin-top: 4px;
+  font-style: italic;  /* 설명 이탤릭체 */
+  color: #444;         /* 약간 부드러운 톤 */
+}
+
 
 /* 📱 모바일 */
 @media (max-width: 768px) {

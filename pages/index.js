@@ -41,7 +41,7 @@ export default function Home() {
 
   <div className="card experience-card">
     <div className="exp-item">
-      <span className="exp-title">OSLabs | </span>
+      <span className="exp-title">OSLabs  </span>
       <span className="exp-date">May 2025 – Present</span>
     </div>
     <p className="exp-role">Software Engineer</p>
@@ -49,7 +49,7 @@ export default function Home() {
 
   <div className="card experience-card">
     <div className="exp-item">
-      <span className="exp-title">Open Source | </span>
+      <span className="exp-title">Open Source  </span>
       <span className="exp-date">Mar 2023 – Jul 2025</span>
     </div>
     <p className="exp-role">Software Engineer</p>
@@ -57,7 +57,7 @@ export default function Home() {
 
   <div className="card experience-card">
     <div className="exp-item">
-      <span className="exp-title">KBS | </span>
+      <span className="exp-title">KBS  </span>
       <span className="exp-date">Mar 2023 – Jul 2025</span>
     </div>
     <p className="exp-role">Digital Content Manager</p>
@@ -69,20 +69,32 @@ export default function Home() {
 
       {/* Education */}
       <section id="education">
-        <h2>Education</h2>
-        <div className="card">
-          <h3>Georgia Institute of Technology</h3>
-          <p>Master of Computer Science, 2023 - present</p>
-        </div>
-        <div className="card">
-          <h3>University of Oxford</h3>
-          <p>MBA, 2005 - 2006</p>
-        </div>
-        <div className="card">
-          <h3>Hanyang Cyber University</h3>
-          <p>B.S.in Computer Science, 2021 - 2023</p>
-        </div>
-      </section>
+  <h2>Education</h2>
+
+  <div className="card edu-card">
+    <div className="edu-item">
+      <span className="edu-school">Georgia Institute of Technology</span>
+      <span className="edu-date">2023 – present</span>
+    </div>
+    <p className="edu-degree">Master of Computer Science</p>
+  </div>
+
+  <div className="card edu-card">
+    <div className="edu-item">
+      <span className="edu-school">University of Oxford</span>
+      <span className="edu-date">2005 – 2006</span>
+    </div>
+    <p className="edu-degree">MBA</p>
+  </div>
+
+  <div className="card edu-card">
+    <div className="edu-item">
+      <span className="edu-school">Hanyang Cyber University</span>
+      <span className="edu-date">2021 – 2023</span>
+    </div>
+    <p className="edu-degree">B.S. in Computer Science</p>
+  </div>
+</section>
 
       {/* Projects */}
      <section id="projects">
@@ -100,7 +112,7 @@ export default function Home() {
     </a>
     <span className="tech-inline"> · typescript · javascript(ES6+) · node · express · jest</span>
   </div>
-  <p>lightweight 2d audio visualizer react library</p>
+  <p className="project-desc">lightweight 2d audio visualizer react library</p>
 </div>
 <div className="card project-card">
   <div className="project-header">
@@ -114,7 +126,7 @@ export default function Home() {
     </a>
     <span className="tech-inline"> · rag · pinecone · puppeteer · express · node · javascript</span>
   </div>
-  <p>puppeteer-based AI web scraper</p>
+  <p className="project-desc">puppeteer-based AI web scraper</p>
 </div>
 
 <div className="card project-card">
@@ -129,7 +141,7 @@ export default function Home() {
     </a>
     <span className="tech-inline"> · javascript · tailwindCSS · jest · mongoDB</span>
   </div>
-  <p>scalable NASA APOD image live archive</p>
+  <p className="project-desc">scalable NASA APOD image live archive</p>
 </div>
 
 <div className="card project-card">
@@ -144,7 +156,7 @@ export default function Home() {
     </a>
     <span className="tech-inline"> · typescript · react · tailwindCSS · express ·  jest · mongoDB</span>
   </div>
-  <p>breaking bad character encyclpedia</p>
+  <p className="project-desc">breaking bad character encyclpedia</p>
 </div>
 
 <div className="card project-card">
@@ -159,7 +171,7 @@ export default function Home() {
     </a>
     <span className="tech-inline"> · aws SQS · azure · python Boto3 · mySQL</span>
   </div>
-  <p>designed resilient multi-cloud architecture</p>
+  <p className="project-desc">designed resilient multi-cloud architecture</p>
 </div>
 
 
