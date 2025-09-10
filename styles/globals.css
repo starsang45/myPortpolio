@@ -168,6 +168,25 @@ h1, h2, h3 {
   }
 }
 
+.project-link {
+  font-weight: bold;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: var(--color-accent); /* hover 시 파란색 강조 */
+  text-decoration: underline;
+}
+
+.tech {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.25rem 0;
+}
+
+
 /* Footer */
 footer {
   text-align: center;

@@ -85,14 +85,88 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section id="projects">
-        <h2>Projects</h2>
-        <div className="card">
-          <h3>NASA Big Picture</h3>
-          <p>Educational app using NASA APOD API</p>
-          <a href="https://github.com/username/project">View on GitHub</a>
-        </div>
-      </section>
+     <section id="projects">
+  <h2>Projects</h2>
+
+  <div className="card project-card">
+  <div className="project-header">
+    <a 
+      href="https://github.com/Waviz-Team/Waviz" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="project-link"
+    >
+      waviz
+    </a>
+    <span className="tech-inline"> · typescript · javascript(ES6+) · node · express · jest</span>
+  </div>
+  <p>lightweight 2d audio visualizer react library</p>
+</div>
+<div className="card project-card">
+  <div className="project-header">
+    <a 
+      href="https://github.com/starsang45/new-tldr-ai-summarizer" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="project-link"
+    >
+      tl;dr ai summarizer
+    </a>
+    <span className="tech-inline"> · rag · pinecone · puppeteer · express · node · javascript</span>
+  </div>
+  <p>puppeteer-based AI web scraper</p>
+</div>
+
+<div className="card project-card">
+  <div className="project-header">
+    <a 
+      href="https://github.com/starsang45/the-big-picture" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="project-link"
+    >
+      big picture - NASA image archive
+    </a>
+    <span className="tech-inline"> · javascript · tailwindCSS · jest · mongoDB</span>
+  </div>
+  <p>scalable NASA APOD image live archive</p>
+</div>
+
+<div className="card project-card">
+  <div className="project-header">
+    <a 
+      href="https://github.com/starsang45/Typescript-character-finder" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="project-link"
+    >
+      typescript character finder 
+    </a>
+    <span className="tech-inline"> · typescript · react · tailwindCSS · express ·  jest · mongoDB</span>
+  </div>
+  <p>breaking bad character encyclpedia</p>
+</div>
+
+<div className="card project-card">
+  <div className="project-header">
+    <a 
+      href="https://sangmus.blogspot.com/2024/10/deploy-mult-timer-web-app-using-sqs.html" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="project-link"
+    >
+      multi-timer web app with aws
+    </a>
+    <span className="tech-inline"> · aws SQS · azure · python Boto3 · mySQL</span>
+  </div>
+  <p>designed resilient multi-cloud architecture</p>
+</div>
+
+
+  {/* 나머지 프로젝트도 같은 패턴으로 작성 */}
+</section>
+
+
 
       {/* Footer */}
       <footer>
