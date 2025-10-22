@@ -58,9 +58,9 @@ export default function Home() {
   <div className="card experience-card">
     <div className="exp-item">
       <span className="exp-title">KBS  </span>
-      <span className="exp-date">Mar 2023 – Jul 2025</span>
+      <span className="exp-date">Mar 2018 – Jul 2025</span>
     </div>
-    <p className="exp-role">Digital Content Manager</p>
+    <p className="exp-role">Digital Content Manager/Frontend engineer</p>
   </div>
 
   {/* ... */}
