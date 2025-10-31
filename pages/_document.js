@@ -7,7 +7,7 @@ export default function Document() {
         {/* ✅ Google Search Console Verification Meta Tag */}
         <meta
           name="google-site-verification"
-          content="googlea44d2f8200ef0a29.html"
+          content="UHnxqwUltwpZxlaN0__q880jlgYnmmxyaTVHWuA8ACQ" 
         />
       </Head>
       <body>
