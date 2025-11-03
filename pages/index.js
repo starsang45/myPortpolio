@@ -173,7 +173,20 @@ export default function Home() {
   </div>
   <p className="project-desc">designed resilient multi-cloud architecture</p>
 </div>
-
+<div className="card project-card">
+  <div className="project-header">
+    <a 
+      href="https://github.com/Momentum-YMCV/Momentum.git" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="project-link"
+    >
+      Momentum - AI Career Coach
+    </a>
+    <span className="tech-inline"> · GPT-3.5 · React · Node.js · MongoDB</span>
+  </div>
+  <p className="project-desc">designed resilient multi-cloud architecture</p>
+</div>
 
   {/* 나머지 프로젝트도 같은 패턴으로 작성 */}
 </section>
