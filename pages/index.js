@@ -124,7 +124,7 @@ export default function Home() {
     >
       tl;dr ai summarizer
     </a>
-    <span className="tech-inline"> · rag · pinecone · puppeteer · express · node · javascript</span>
+    <span className="tech-inline"> · RAG · Pinecone · Puppeteer · GPT-4.0 · Node.js · javascript</span>
   </div>
   <p className="project-desc">puppeteer-based AI web scraper</p>
 </div>
