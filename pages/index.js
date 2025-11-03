@@ -185,8 +185,23 @@ export default function Home() {
     </a>
     <span className="tech-inline"> · GPT-3.5 · React · Node.js · MongoDB</span>
   </div>
-  <p className="project-desc">designed resilient multi-cloud architecture</p>
+  <p className="project-desc">AI-powered app that creates personalized daily plans</p>
 </div>
+<div className="card project-card">
+  <div className="project-header">
+    <a 
+      href="https://play.google.com/store/apps/details?id=kr.co.kbs.kplayer&hl=en_US" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="project-link"
+    >
+      kbs+ OTT SEO Automation & Analytics
+    </a>
+    <span className="tech-inline"> · javascript · selenium · GA4 · GSC · aws s3 </span>
+  </div>
+  <p className="project-desc">launched and optimized the kbs+ ott platform with automated seo pipelines and performance dashboards</p>
+</div>
+
 
   {/* 나머지 프로젝트도 같은 패턴으로 작성 */}
 </section>
