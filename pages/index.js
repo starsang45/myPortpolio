@@ -133,10 +133,7 @@ export default function Home() {
                 · GA4 · Google Ads · HubSpot · Zapier · ChatGPT
               </span>
             </div>
-            <p className="project-desc">
-              AI-driven GA4/Ads → GPT scoring → HubSpot sync → Slack alerts
-              pipeline
-            </p>
+            <p className="project-desc">AI-Powered Intent Scoring Pipeline</p>
           </div>
           <div className="card project-card">
             <div className="project-header">
