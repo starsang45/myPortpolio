@@ -140,6 +140,42 @@ export default function Home() {
           <div className="card project-card">
             <div className="project-header">
               <a
+                href="https://github.com/starsang45/new-tldr-ai-summarizer"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                tl;dr ai summarizer
+              </a>
+              <span className="tech-inline">
+                {" "}
+                · RAG · Pinecone · Puppeteer · GPT-4.0 · Node.js · javascript
+              </span>
+            </div>
+            <p className="project-desc">puppeteer-based AI web scraper</p>
+          </div>
+          <div className="card project-card">
+            <div className="project-header">
+              <a
+                href="https://github.com/Momentum-YMCV/Momentum.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                Momentum - AI Career Coach
+              </a>
+              <span className="tech-inline">
+                {" "}
+                · GPT-3.5 · React · Node.js · MongoDB
+              </span>
+            </div>
+            <p className="project-desc">
+              AI-powered app that creates personalized daily plans
+            </p>
+          </div>
+          <div className="card project-card">
+            <div className="project-header">
+              <a
                 href="https://play.google.com/store/apps/details?id=kr.co.kbs.kplayer&hl=en_US"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -180,23 +216,6 @@ export default function Home() {
             <p className="project-desc">
               lightweight 2d audio visualizer react library
             </p>
-          </div>
-          <div className="card project-card">
-            <div className="project-header">
-              <a
-                href="https://github.com/starsang45/new-tldr-ai-summarizer"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="project-link"
-              >
-                tl;dr ai summarizer
-              </a>
-              <span className="tech-inline">
-                {" "}
-                · RAG · Pinecone · Puppeteer · GPT-4.0 · Node.js · javascript
-              </span>
-            </div>
-            <p className="project-desc">puppeteer-based AI web scraper</p>
           </div>
 
           <div className="card project-card">
@@ -254,25 +273,6 @@ export default function Home() {
             </div>
             <p className="project-desc">
               designed resilient multi-cloud architecture
-            </p>
-          </div>
-          <div className="card project-card">
-            <div className="project-header">
-              <a
-                href="https://github.com/Momentum-YMCV/Momentum.git"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="project-link"
-              >
-                Momentum - AI Career Coach
-              </a>
-              <span className="tech-inline">
-                {" "}
-                · GPT-3.5 · React · Node.js · MongoDB
-              </span>
-            </div>
-            <p className="project-desc">
-              AI-powered app that creates personalized daily plans
             </p>
           </div>
 
