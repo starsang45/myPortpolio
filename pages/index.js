@@ -116,7 +116,7 @@ export default function Home() {
         </section>
         {/* Automation */}
         <section id="projects">
-          <h2>Automation/Test</h2>
+          <h2>Automation & AI Systems</h2>
 
           <div className="card project-card">
             <div className="project-header">
