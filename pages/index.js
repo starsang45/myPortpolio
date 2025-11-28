@@ -134,7 +134,8 @@ export default function Home() {
               </span>
             </div>
             <p className="project-desc">
-              lightweight 2d audio visualizer react library
+              AI-driven GA4/Ads → GPT scoring → HubSpot sync → Slack alerts
+              pipeline
             </p>
           </div>
           <div className="card project-card">
@@ -171,6 +172,26 @@ export default function Home() {
             </div>
             <p className="project-desc">
               AI-powered app that creates personalized daily plans
+            </p>
+          </div>
+          <div className="card project-card">
+            <div className="project-header">
+              <a
+                href="https://github.com/starsang45/GoogleAPIProject.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                OTT/YouTube CRM Automation Pipeline
+              </a>
+              <span className="tech-inline">
+                {" "}
+                · AWS · Selenium · Lambda/SQS · JavaScript
+              </span>
+            </div>
+            <p className="project-desc">
+              Extended automation workflows to external OTT/YouTube CRM
+              pipelines
             </p>
           </div>
           <div className="card project-card">
